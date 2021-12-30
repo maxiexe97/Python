@@ -127,12 +127,43 @@ k=4
     for variable in elemento_iterable:
         cuerpo de la repetición
 """
-#Ejemplo
+""" # Ejemplo1
 numeros=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
 for num in numeros:     #en "num" se almacenan los datos iterados de "numeros"
     if num % 2 == 0:    #si es divisible por 2 entonces:
         print(num)      #imprimir la variable "num", numeros pares
+ """
+"""  # Ejemplo2
+palabras = ['Peine', 'Pelo', 'Ventana', 'Refrigerador', 'Adolescente', 'Dentista', 'Asesino']
+for caracteres in palabras:
+    print(caracteres,'\t###Longitud: ',len(caracteres))
+ """
+""" # Ejemplo Agenda Telefonica
+#Cada uno tiene una Clave y Valor (key,Value)
+Agenda={'Marcelo':'34434561','Gastón':'34434562','Lucas':'34434563','Angela':'34434564','Lucio':'34434565'}
+for (k,v) in Agenda.items():
+    print(k,v)
+"""
+""" # Ejemplo Contador de letras
+entrada='hola, estoy programando en python'
+contador=0
+letra_contar='a'
+for letra in entrada:
+    if letra==letra_contar:
+        contador+=1
+print(letra_contar,': ',contador)
+ """
 
+# Bucles while
+"""se ejecutan mientras la condición sea verdadera
+   sinrtaxis:        while (condicion):
+                        cuerpo de repeticion    """
+""" # Ejemplo Contador
+i=0
+while i<=9:
+    print(i)
+    i+=1 """
+"""Ver en MasEjemplos"""
 
 
 print("\n")
